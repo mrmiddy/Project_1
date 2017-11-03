@@ -2,6 +2,7 @@
 import fresh_tomatoes
 import media
 
+
 """ This file creates the instances of the movie Class that needs
     to be displayed on the website.
 
