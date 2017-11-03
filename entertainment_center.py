@@ -64,8 +64,7 @@ star_wars_the_force_awakens = media.Movie(
     "Star Wars Episode VII: The Force Awakens",
     "Thirty years after the defeat of the Empire, Luke Skywalker has vanished"
     "and a new threat has risen: The First Order, led by the mysterious"
-    "Supreme Leader Snoke."
-    "and his dark side enforcer, Kylo Ren.",
+    "Supreme Leader Snoke and his dark side enforcer, Kylo Ren.",
     "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=0%2C0%2C1620%2C2400&width=600",  # NOQA
     "https://www.youtube.com/watch?v=sGbxmsDFVnE")
 
