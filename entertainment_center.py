@@ -46,9 +46,10 @@ star_wars_the_phantom_menace = media.Movie(
 
 star_wars_attack_of_the_clones = media.Movie(
     "Star Wars Episode II: Attack of the Clones",
-    "Ten years after the invasion of Naboo, the galaxy is on the brink of civil war."
-    "Under the leadership of a renegade Jedi named Count Dooku, thousands of"
-    "solar systems threaten to break away from the Galactic Republic.",
+    "Ten years after the invasion of Naboo, the galaxy is on the brink of"
+    "civil war. Under the leadership of a renegade Jedi named Count Dooku,"
+    "thousands of solar systems threaten to break away from the"
+    "Galactic Republic.",
     "https://lumiere-a.akamaihd.net/v1/images/Star-Wars-Attack-Clones-II-Poster_53baa2e7.jpeg?region=18%2C0%2C660%2C1000&width=600",  # NOQA
     "https://www.youtube.com/watch?v=KgZBhg76XCo")
 
@@ -61,8 +62,9 @@ star_wars_revenge_of_the_sith = media.Movie(
 
 star_wars_the_force_awakens = media.Movie(
     "Star Wars Episode VII: The Force Awakens",
-    "Thirty years after the defeat of the Empire, Luke Skywalker has vanished and"
-    "a new threat has risen: The First Order, led by the mysterious Supreme Leader Snoke"
+    "Thirty years after the defeat of the Empire, Luke Skywalker has vanished"
+    "and a new threat has risen: The First Order, led by the mysterious"
+    "Supreme Leader Snoke."
     "and his dark side enforcer, Kylo Ren.",
     "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg?region=0%2C0%2C1620%2C2400&width=600",  # NOQA
     "https://www.youtube.com/watch?v=sGbxmsDFVnE")
@@ -93,7 +95,7 @@ movies = [star_wars_a_new_hope,
           star_wars_the_last_jedi]
 
 
-""" This sends the movies array to the fresh_tomatoes open_movies_page() method which
-    uses the movie instances to create the website. """
+""" This sends the movies array to the fresh_tomatoes open_movies_page() method
+    which uses the movie instances to create the website. """
 
 fresh_tomatoes.open_movies_page(movies)
